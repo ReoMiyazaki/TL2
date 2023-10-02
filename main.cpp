@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
+#include <DirectXTex.h>
 
 int main(int argc, char* argv[]) {
 
