@@ -14,6 +14,12 @@ enum Argument
 
 int main(int argc, char* argv[])
 {
+	for (int i = 0; i < argc; i++)
+	{
+		printf(argv[i]);
+		printf("\n");
+	}
+
 	assert(argc >= NumArgument);
 
 	// COMƒ‰ƒCƒuƒ‰ƒŠ‚Ì‰Šú‰»
